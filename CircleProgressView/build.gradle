@@ -1,5 +1,5 @@
 apply plugin: 'com.android.library'
-apply plugin: 'com.github.dcendents.android-maven'
+//apply plugin: 'com.github.dcendents.android-maven'
 
 group = 'com.github.jakob-grabner'
 android {
@@ -28,7 +28,7 @@ android {
 dependencies {
 	api 'com.android.support:support-annotations:28.0.0'
 }
-
+/*
 // build a jar with source files
 task sourcesJar(type: Jar) {
 	from android.sourceSets.main.java.srcDirs
@@ -52,3 +52,4 @@ artifacts {
 	archives sourcesJar
 	archives javadocJar
 }
+*/
