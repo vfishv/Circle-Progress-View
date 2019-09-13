@@ -7,7 +7,7 @@ android {
     }
     defaultConfig {
         applicationId "at.grabner.example.circleprogressview"
-        minSdkVersion 21
+        minSdkVersion 17
         targetSdkVersion 29
         versionCode 3
         versionName "1.2"
